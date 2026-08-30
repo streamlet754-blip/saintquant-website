@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Github, Twitter, Linkedin, Mail, ArrowRight } from "lucide-react"
+import { GitHub, X, Linkedin, Mail, ArrowRight } from "lucide-react"
 
 export default function Footer() {
   const [email, setEmail] = useState("")
@@ -30,10 +30,10 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Github className="h-5 w-5" />
+                <GitHub className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter className="h-5 w-5" />
+                <X className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="h-5 w-5" />
